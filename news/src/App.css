@@ -1,0 +1,67 @@
+.posts{
+    width: 75%; 
+    padding: 25px;
+    margin: 1.2rem 1em;
+    box-shadow: 0px 3px 3px -2px rgb(0 0 0 / 20%),
+      0px 3px 4px 0px rgb(0 0 0 / 14%), 0px 1px 8px 0px rgb(0 0 0 / 12%);
+    list-style: none;
+    font-size: x-large;
+    border-radius: 25px;
+    text-align: center;
+    display: inline-block;
+    word-break: break-word;
+}
+.comments{
+  padding: 10px;
+  margin: 1.2rem 0;
+  box-shadow: 0px 3px 3px -2px rgb(0 0 0 / 20%),
+    0px 3px 4px 0px rgb(0 0 0 / 14%), 0px 1px 8px 0px rgb(0 0 0 / 12%);
+  margin-right: 2em;
+  list-style: none;
+  font-size: x-large;
+  border-radius: 15px;
+  display: block;
+  word-break: break-word;
+}
+.postLink:hover{
+  color:cornflowerblue;
+}
+.postLink{
+  text-decoration: none;
+  color: black;
+}
+.linkTag:hover{
+  color: aliceblue;
+  text-decoration: none;
+}
+.commentHeading{
+  text-align: center;
+  width: 100%;
+  height: 45px;
+  background-color:teal;
+  color: aliceblue;
+}
+.postHeading{
+  text-align: center;
+  width: 100%;
+  height: 45px;
+  background-color:teal;
+  color: aliceblue;
+}
+.linkTagCom{
+  font-size: 25px;
+  text-decoration: none;
+  text-align: right;
+  display: inline;
+}
+.viewComments{
+  margin-top: 10px;
+  appearance: none;
+  border: 0;
+  border-radius: 5px;
+  background:teal;
+  color: #fff;
+  padding: 8px 16px;
+  font-size: 16px;
+  cursor: pointer;
+}
